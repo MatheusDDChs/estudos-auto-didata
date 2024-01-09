@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #15DFE1;
+    --cor02: #32ABAD;
+    --cor03: #43898A;
+    --cor04: #314747;
+    --cor05: #2D3333;
+    --cor-destaque: #FFA500;
+
+    --fonte-padrao: Georgia, 'Times New Roman', Times, serif;
+    --fonte-destaque: sans-serif;
+}
+
+html{
+    background-color: var(--cor02);
+}
+
+body {
+    margin: 0;
+    font-family: var(--fonte-padrao);
+}
+
+strong {
+    font-family: var(--fonte-destaque);
+}
+
+header {
+    background-color: var(--cor03);
+    color: white;
+    padding: 15px 15px 15px 20px;
+    margin: 0;
+    box-shadow: 0px 2px 4px 5px rgba(0, 0, 0, 0.24);
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 3px;
+    transition: background-color 0.3s ease;
+    border-radius: 3px;
+}
+
+header a:hover {
+    text-decoration: underline;
+    background-color: var(--cor04);
+}
+
+header h1 {
+    margin: 0px 0px 15px 18px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+/* CONTEÚDO PRINCIAPAL DA PÁGINA */
+
+main section aside {
+    background-color: var(--cor-destaque);
+    color: black;
+    width: max-content;
+    padding: 3px;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 270px;
+    width: 96%;
+
+
+    background-color: var(--cor04);
+    box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.445);
+    margin: 0px auto 0px auto;
+    color: rgb(243, 243, 243);
+    padding: 10px;
+}
+
+main section > p {
+    font-size: 1em;
+    line-height: 2em;
+
+    text-align: center;
+    text-indent: 20px;
+}
+
+footer {
+    background-color: var(--cor05);
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}   
+
+footer a:hover {
+    color: var(--cor01);
+    text-decoration: underline;
+}
+
+
+footer p {
+    line-height: 1.8em;
+    padding-top: 15px;
+    margin: 0;
+}
+
+footer nav {
+    padding: 10px;
+    align-items: center;
+}
+
+hr {
+    height: 3px;
+    border: 2px double black;
+    background-color: white;
+    width: 90%;
+}

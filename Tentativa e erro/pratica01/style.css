@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+html {
+    background-color: #172A3A;
+}
+
+body {
+    font: normal 1em arial sans-serif;
+}
+
+ol {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+h1 {
+    text-align: center;
+
+    padding: 10px;
+    width: 1200px;
+    margin: auto;
+
+    border: 5px solid white;
+    border-radius: 4px;
+    
+    background-color: #ffebcc;
+}
+
+.dark {
+    text-align: justify;
+
+    padding: 10px 10px 5px;
+    margin: 20px auto 25px auto;
+    background-color: #9E7682;
+    width: 1200px;
+
+    border: 5px solid white;
+    border-radius: 4px;
+}
+
+.mine {
+    text-align: justify;
+    padding: 10px;
+    width: 1200px;
+    margin: 20px auto 25px auto;
+
+    border: 5px solid white;
+    border-radius: 4px;
+    
+    background-color: #436436;
+}
+
+.dead {
+    text-align: justify;
+    padding: 10px 10px 5px;
+    width: 1200px;
+    margin: 20px auto 25px auto;
+
+
+    border: 5px solid white;
+    border-radius: 4px;
+
+    background-color: #FF5A5F;
+}

@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+:root {
+    --cor-01: #001F3F;
+    --cor-02: #003366;
+    --cor-03: #66A3D2;
+    --cor-04: #00BFFF;
+    --cor-05: #AEDFF2;
+
+    --cor-destaque: #FFA500;
+    --cor-trans: #00b300;
+}
+
+body {
+    margin: 0;
+    background-color: var(--cor-05);
+}
+
+/* Cabeçalho e suas marcações */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0px auto 0px auto;
+    padding: 10px;
+
+    background-color: var(--cor-02);
+
+    width: auto
+}  
+
+header h1 {
+    margin-right: 30px;
+    color: azure;
+}
+
+header > img {
+    margin-right: 20px;
+}
+
+/* Navegação do cabeçalho */
+
+header nav {
+    justify-content: space-around;
+}
+
+header > nav > a{
+    text-decoration: none;
+    font-size: 1.1em;
+    text-align: center;
+    
+    border-radius: 4px;
+    margin-right: 10px;
+    padding: 7px;
+
+    background-color: var(--cor-03);
+    color: azure;
+    transition: background-color 0.3s ease;
+}
+
+header > nav > a:hover {
+    background-color: var(--cor-trans);
+}
+
+/* 1 PARTE DO MAIN */
+
+.hero-01 {
+    columns: 2;
+    background-color: var(--cor-05);
+
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#img-texto {
+    margin: 30px 10px 10px 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+    align-items: center;
+    text-align: center;
+
+    background-color: var(--cor-04);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.418);
+}   
+
+#img-texto > img {
+    margin: auto;
+}
+
+#img-texto > p {
+    text-align: justify;
+    line-height: 1.8em;
+
+    padding: 0;
+}
+
+/* TEXTO CUSTOMIZADO EM CIMA */
+
+.texto-custom {
+    line-height: 1.8em;
+    padding: 10px 10px;
+    margin: 0px 20px 0px 0px;
+
+    border-radius: 5px;
+    width: 665px;
+
+    background-color: var(--cor-03);
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.425);
+}
+
+.texto-custom p {
+    margin: 0px;
+    text-align: justify;
+}   
+
+#texto-baixo {
+    line-height: 2em;
+    text-align: justify;
+    margin-top: 15px;
+
+
+    padding-right: 20px;
+    display: flex;
+    border-radius: 5px;
+    width: 665px;
+
+    background-color: var(--cor-04);
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.425);
+}
+
+#texto-baixo > img {
+    height: 100px;
+    margin: auto;
+    margin-right: 15px;
+}
+
+/* 2 PARTE DO MAIN */
+
+.hero-02 {
+    display: flex;
+}
+
+img {
+    display: block;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    display: flex;
+}

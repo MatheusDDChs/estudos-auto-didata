@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+
+:root {
+    --cor01: #11BCBF;
+    --cor02: #32abad;
+    --cor03: #41837F;
+    --cor04: #3A5454;
+    --cor05: #2D3333;
+    --cor-destaque: #FFA500;
+
+    --fonte-padrao: Georgia, 'Times New Roman', Times, serif;
+    --fonte-destaque: sans-serif;
+    --fonte-titulos: 'Playfair Display', serif;
+}
+
+html {
+    background-color: var(--cor04);
+}
+
+body {
+    font-family:var(--fonte-padrao);
+    margin: 0;
+}
+
+
+header {
+    background-color: var(--cor03);
+    align-items: center;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.308);
+
+    margin: auto;
+    display: flex;
+}   
+
+header h1 {
+    text-indent: 25px;
+    font-family: var(--fonte-titulos);
+}
+header a {
+    text-decoration: none;
+    color: white;
+
+    margin: 17px 0px 0px 20px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+
+    transition: background-color 0.3s ease;
+}
+
+nav {
+    margin: 0;
+}
+
+header a:hover {
+    text-decoration: underline;
+
+    background-color: var(--cor04);
+}
+
+/* MAIN */
+
+main {
+    max-width: 1000px;
+    min-width: 260px;
+    width: 96%;
+
+    background-color: var(--cor02);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.37);
+    border-radius: 0px 0px 10px 10px;
+
+    margin: 0px auto 30px auto;
+    display: block;
+    padding: 10px;
+}
+
+main section h2 {
+    margin: 0;
+    text-indent: 20px;
+    font-family: var(--fonte-titulos);
+}
+main section p {
+    line-height: 2em;
+    text-align: justify;
+    text-indent: 20px;
+} 
+
+#hero-p-1{
+    margin-bottom: 0px;
+}
+
+.barra-custom{
+    height: 2px;
+    border: solid 1px var(--cor03);
+    background-color: var(--cor03);
+    width: 80%;
+}
+
+footer {
+    background-color: var(--cor05);
+
+    width: auto;
+    margin: auto;
+    padding: 7px;
+
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}

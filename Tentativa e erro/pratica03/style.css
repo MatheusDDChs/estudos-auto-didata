@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+:root {
+    --padding-div: 1%;
+    --margembaixa-div: 30px;
+    --largura-div: 100%;
+    --radius-div: 20px;
+
+
+    --cor01: #28536B;
+    --cor02: #7EA8BE;
+}
+
+
+html {
+    background-color: var(--cor01);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+header img {
+    max-width: 175px;
+    width: 100%;
+}
+
+header h1 {
+    color: white;
+}
+
+main img {
+    width: 40px;
+}
+
+main {
+    text-align: center;
+    margin: auto;
+
+    max-width: 900px;
+    width: 90%;
+}
+
+main h2 {
+    margin-right: 4%;
+}
+
+.linkedin {
+    margin-bottom: var(--margembaixa-div);
+    padding: var(--padding-div);
+    width: var(--largura-div);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-div);
+
+    background-color: var(--cor02);
+}
+
+.twitter {
+    margin-bottom: var(--margembaixa-div);
+    padding: var(--padding-div);
+    width: var(--largura-div);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-div);
+
+
+    background-color: var(--cor02);
+}
+
+.facebook {
+    margin-bottom: var(--margembaixa-div);
+    padding: var(--padding-div);
+    width: var(--largura-div);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-div);
+
+
+    background-color: var(--cor02);
+}
+
+.youtube {
+    margin-bottom: var(--margembaixa-div);
+    padding: var(--padding-div);
+    width: var(--largura-div);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-div);
+
+
+    background-color: var(--cor02);
+}
+
+.instagram {
+    margin-bottom: 80px;
+    padding: var(--padding-div);
+    width: var(--largura-div);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-div);
+
+
+    background-color: var(--cor02);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main .linkedin,
+main .twitter,
+main .facebook,
+main .youtube,
+main .instagram {
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+}
+
+main .linkedin:hover,
+main .twitter:hover,
+main .facebook:hover,
+main .youtube:hover,
+main .instagram:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
