@@ -120,6 +120,7 @@ header > nav > a:hover {
     line-height: 2em;
     text-align: justify;
     margin-top: 15px;
+    align-items: center;
 
 
     padding-right: 20px;
@@ -137,16 +138,23 @@ header > nav > a:hover {
     margin-right: 15px;
 }
 
+#texto-baixo > a {
+    margin-right: 5px;
+}
 /* 2 PARTE DO MAIN */
 
 .hero-02 {
     display: flex;
+    align-items: center;
+    margin: auto;
 }
 
-img {
+.hero-02 > #image-hero-02 >img {
     display: block;
+    width: 600px;
+    height: 400px;
+    margin: auto;
 }
-
 
 /* RODAPÉ */
 
