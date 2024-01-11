@@ -96,7 +96,9 @@ header > nav > a:hover {
 
     padding: 0;
 }
-
+p {
+    font-size: 1.1em;
+}
 /* TEXTO CUSTOMIZADO EM CIMA */
 
 .texto-custom {
@@ -114,6 +116,8 @@ header > nav > a:hover {
 .texto-custom p {
     margin: 0px;
     text-align: justify;
+    text-indent: 20px;
+    line-height: 1.8em;
 }   
 
 #texto-baixo {
@@ -148,36 +152,42 @@ header > nav > a:hover {
     align-items: center;
 
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .hero-02 > #image-hero-02 >img {
-    display: block;
     width: 600px;
     height: 400px;
+
+    display: block;
     margin-left: 40px;
-    background-color: var(--cor-03);
     padding: 10px;
     border-radius: 3px;
+
+    background-color: var(--cor-03);
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.425);
 }
 
 /* RODAPÉ */
 
 footer {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+
     background-color: var(--cor-01);
     color: white;
-    justify-content: space-around;
-    align-items: center
 }
 
 footer img {
-    width: ;
+    width: 100px;
     height: 100px;
     display: block;
 }
 
 footer a {
     text-decoration: none;
+
     color: var(--cor-trans);
 }
 
