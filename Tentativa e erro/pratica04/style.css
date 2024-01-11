@@ -146,18 +146,41 @@ header > nav > a:hover {
 .hero-02 {
     display: flex;
     align-items: center;
-    margin: auto;
+
+    justify-content: space-between;
 }
 
 .hero-02 > #image-hero-02 >img {
     display: block;
     width: 600px;
     height: 400px;
-    margin: auto;
+    margin-left: 40px;
+    background-color: var(--cor-03);
+    padding: 10px;
+    border-radius: 3px;
 }
 
 /* RODAPÉ */
 
 footer {
     display: flex;
+    background-color: var(--cor-01);
+    color: white;
+    justify-content: space-around;
+    align-items: center
+}
+
+footer img {
+    width: ;
+    height: 100px;
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor-trans);
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
