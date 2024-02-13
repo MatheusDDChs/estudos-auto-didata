@@ -50,12 +50,13 @@ header {
 
 main {
     background: black url(https://wallpapercave.com/wp/wp4312252.jpg) center center/cover no-repeat fixed;
-    padding: 10px;
+    padding: 10px 0px 10px 10px;
     display: flex;
     align-items: start;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
 }
+
 
 .menu {
 width: 200px;
@@ -68,24 +69,57 @@ border-radius: 10px;
 overflow: hidden;
 }
 
-.menu pre {
+.menu:hover {
+    width: 200px;
+    height: 370px;
+}
+
+* pre {
     white-space: pre-line;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 3em;
+
     font-size: 1.1em;
 }
 
 .menu pre a {
     color: white;
     text-decoration: none;
+    line-height: 3em;
+    position: relative;
+    padding-bottom: 5px;
 }
 
-.menu pre a:hover {
-    color: black;
-    text-decoration: underline;
+.menu pre a::after {
+    content: " ";
+    background-color: black;
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s ease-in-out;
 }
 
-.menu:hover {
-    width: 200px;
-    height: 370px;
+.menu pre a:hover::after{
+    width: 100%;
+}
+
+.lateral {
+    height: 400px;
+    width: 10px;
+    overflow: hidden;
+    background-color: orange;
+    transition: 0.3s ease-in;
+}
+
+.lateral:hover {
+    width: 150px;    
+}
+
+.lateral pre a {
+    color: white;
+    text-decoration: none;
+    line-height: 3em;
+
+    padding-bottom: 5px;
 }
