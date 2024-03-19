@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+tbody >tr:nth-child(odd) {
+    background-color: rgb(189, 189, 189);
+}
+
+table .number {
+    text-align: right;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+thead {
+    font-size: 1.1em;
+}
