@@ -4,9 +4,10 @@ body {
     background-color: rgb(155, 155, 155);
 }
 
-#quadro {
-    width: 400px;
+.quadro {
+    width: 300px;
     height: 500px;
+overflow: hidden;
 }
 
 .insta {
@@ -32,16 +33,20 @@ body {
 }
 
 #social1 {
-    top: 15%;
+
 }
 
 #social2 {
-    top: 30%;
+    top: 15%;
 }
 #social3 {
-    top: 45%;
+    top: 30%;
 }
 
 #social4 {
+    top: 45%;
+}
+
+#social5 {
     top: 60%;
 }
