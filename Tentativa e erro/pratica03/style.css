@@ -13,7 +13,8 @@
 
 
 html {
-    background-color: var(--cor01);
+    background: url(imagens/desfoque.jpeg) no-repeat;
+    background-size: cover;
 }
 
 body {
@@ -50,7 +51,11 @@ main {
 main h2 {
     margin-right: 4%;
 }
-
+main .linkedin,
+main .twitter,
+main .facebook,
+main .youtube,
+main .instagram {}
 .linkedin {
     margin-bottom: var(--margembaixa-div);
     padding: var(--padding-div);
@@ -149,6 +154,7 @@ main .youtube,
 main .instagram {
     transition: transform 0.3s ease-in-out;
     width: 100%;
+    opacity: 80%;
 }
 
 main .linkedin:hover,
@@ -158,4 +164,5 @@ main .youtube:hover,
 main .instagram:hover {
     transform: scale(1.1);
     text-decoration: underline;
+    opacity: 100%;
 }
