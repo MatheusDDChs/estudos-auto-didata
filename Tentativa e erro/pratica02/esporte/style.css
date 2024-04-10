@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+
+    width: 100vw;
+    text-align: center;
+    background-color: #43898A;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header .logo {
+    background-color: red;
+    padding: 5px;
+}
+
+header .titulo {
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+}
+
+header .pesquisa {
+    background-color: white;
+    padding: 5px;
+}
+
+main {
+    max-width: 800px;
+    min-width: 350px;
+    width: 96%;
+
+    background-color: #43898A;
+
+    margin: auto;
+    text-align: center;
+}

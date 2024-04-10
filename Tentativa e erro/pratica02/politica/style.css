@@ -26,7 +26,7 @@ body {
 
 
 header {
-    background-color: var(--cor03);
+    background-color: var(--cor02);
     align-items: center;
     box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.308);
 
@@ -64,11 +64,11 @@ header a:hover {
 /* MAIN */
 
 main {
-    max-width: 1000px;
+    max-width: 850px;
     min-width: 260px;
     width: 96%;
 
-    background-color: var(--cor02);
+    background-color: white;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.37);
     border-radius: 0px 0px 10px 10px;
 
@@ -83,7 +83,7 @@ main section h2 {
     font-family: var(--fonte-titulos);
 }
 main section p {
-    line-height: 2em;
+    line-height: 2.5em;
     text-align: justify;
     text-indent: 20px;
 } 
