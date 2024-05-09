@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 10px;
+}
+
+p {
+    padding: 5px;
+}
+
+header .obrig{
+    color: red;
+}
+
+header {
+    width: 500px;
+    height: 150px;
+    margin: 5px auto 20px auto;
+    padding: 10px;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.452);
+    border-radius: 5px;
+}
+
+header::after {
+    content: " ";
+    width: 500px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    top: 0;
+}
+
+form {
+    width: 500px;
+    height: 250px;
+    margin: 20px auto 20px auto;
+    padding: 10px;
+
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.459);
+    border-radius: 5px;
+    line-height: 2em;
+}
+
+#opt1 {
+    
+}

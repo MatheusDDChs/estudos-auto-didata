@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Uns testes que quero fazer com os forms</h1>
+<!-- Em action você pode selecionar o arquivo PHP por exemplo que vai fazer essa interação back-end
+    Com o GET= você usa o formulário para uma coisa que ñ pode ser compartilhada, e para algo mais seguro
+    No POST= você usa o formulário pra algo que pode ser compartilhado por exemplo, tem menos segurança.
+-->
+
+<header>
+    <h1>Coleta de Dados: Comunidade</h1>
+    <p>Me ajude a criar algo que realmente vale a pena</p> <hr>
+    <p class="obrig">* Indica uma pergunta obrigatória</p>
+</header>
+
+<main>
+    <form action="local.php" id="form01" autocomplete="off">
+        <p>
+            <input type="checkbox" name="opt1" id="opt1">
+            <label for="opt1">Você gosta de Supra?</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="opt2" id="opt2">
+            <label for="opt2">Está disposto a pagar por 1?</label>
+        </p>
+        
+        <p>
+            <input type="checkbox" name="opt3" id="opt3">
+            <label for="opt3">Realmente acha que isso vai dar certo?</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="opt4" id="opt4">
+            <label for="opt4">Lembre-se de nunca parar de evoluir!</label>
+        </p>
+
+        <p>
+            <input type="checkbox" name="opt5" id="opt5">
+            <label for="opt5">Are you enjoying this Website?</label>
+        </p>
+
+
+    </form>
+
+    <form action="" id="form02" autocomplete="on">
+
+        <p>
+            <label for="mesg1">Nome: </label>
+            <input type="text" name="mesg1" id="mesg1">
+        </p>
+
+        <p>
+            Nos conte sua idade:
+        </p>
+        <p>
+            <label for="idade1">16-18</label>
+            <input type="checkbox" name="dade1" id="idade1">
+        </p>
+        <p>
+            <label for="idade2">19-21</label>
+            <input type="checkbox" name="dade2" id="idade2">
+        </p>
+        <p>
+            <label for="idade3">20-24</label>
+            <input type="checkbox" name="dade3" id="idade3">
+        </p>
+    </form>
+</main>
+<p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Apagar">
+</p>
+
+
+</body>
+</html>
